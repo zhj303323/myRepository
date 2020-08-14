@@ -15,4 +15,6 @@ public interface UserDao {
 	public int delete(String ids);
 	public List<User> findList(Map<String,Object> queryMap);
 	public int getTotal(Map<String,Object> queryMap);
+	//增加一个添加方法
+	p
 }
